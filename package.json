@@ -1,0 +1,25 @@
+{
+  "name": "daniel-phonelath",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dphonelath/personal-website.git"
+  },
+  "author": "Daniel Phonelath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dphonelath/personal-website/issues"
+  },
+  "homepage": "https://github.com/dphonelath/personal-website#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

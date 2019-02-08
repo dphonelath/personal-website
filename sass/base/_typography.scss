@@ -1,0 +1,33 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem; 
+    line-height: 1.7;
+    color: $color-primary-grey;
+    padding: 3rem;
+}
+
+.heading-primary{
+    color: #ed553b;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    backface-visibility: hidden;
+
+    &--main{
+        display: block;
+        font-size: 6rem;
+        font-weight: 700;
+        letter-spacing: .5rem;
+        animation: moveInLeft 1s ease-out;
+    }
+    
+    &--sub{
+        display: block;
+        font-size: 3rem;
+        font-weight: 700;
+        letter-spacing: .2rem;
+        color: #524a69;
+    
+        animation: moveInRight 1s ease-out;
+    }
+}
