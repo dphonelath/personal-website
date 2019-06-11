@@ -20,6 +20,10 @@
             width: 100%;
         }
 
+        &--message{
+            height: 5rem !important;
+        }
+
         &:focus {
             outline: none;
             box-shadow: 0 1rem 2rem rgba($color-black, .1);
